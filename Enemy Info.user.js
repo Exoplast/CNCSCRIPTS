@@ -1,3 +1,4 @@
+//==UserScript==
 // @name        Enemy Info
 // @description Displays an Enemy's Offense and Defense Level when in range of your selected base.
 // @version     1.00
@@ -7,7 +8,7 @@
 // @grant       GM_setValue
 // @grant       GM_getValue
 // @grant       unsafeWindow
-//==UserScript==
+// ==/UserScript==
 (function () {
 	var EnemyInfo_mainFunction = function () {
 
@@ -49,7 +50,6 @@
 				return this.onCitiesChange_EnemyInfo();
 			}
 		}
-
 		function EnemyInfo_checkIfLoaded() {
 			try {
 				if (typeof qx !== "undefined" && qx.core.Init.getApplication() !== null && qx.core.Init.getApplication().getMenuBar() !== null) {
