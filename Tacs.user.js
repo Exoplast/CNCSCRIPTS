@@ -111,16 +111,16 @@ window.TACS_version = GM_info.script.version;
 			"Version: " : ["Sürüm: ", "", "", "", "", "", "", "Versio: "],
 			"Mark saved targets on region map" : ["Kaydedilmiş hedefleri haritada işaretle", "Gespeicherte Ziele auf der Karte Markieren", "", "", "", "", "", "Merkitse tallennetut kohteet alue kartalle"], // region view
 			"Enable 'Double-click to (De)activate units'" : ["Çift-tıklama ile birlikleri (de)aktifleştirmeyi etkinleştir", "Doppel-Klick zum Einheiten (De)-Aktivieren ", "", "", "", "", "", "Tuplaklikkaus aktivoi/deaktivoi yksiköt"],
-			"Show Loot Summary" : ["", "", "", "", "", "", "", ""],
-			"Show Stats During Attack" : ["İstatistikleri saldırı sırasında göster", "", "", "", "", "", "", "Näytä tiedot -ikkuna hyökkäyksen aikana"],
-			"Show Stats During Simulation" : ["İstatistikleri simulasyondayken göster", "", "", "", "", "", "", "Näytä tiedot -ikkuna simuloinnin aikana"],
-			"Skip Victory-Popup After Battle" : ["Savaş Bitiminde Zafer Bildirimini Atla", "", "", "", "", "", "", "Ohita taistelun jälkeinen voittoruutu"],
+			"Show Loot Summary" : ["", "Zeige Beute-Zusammenfassung", "", "", "", "", "", ""],
+			"Show Stats During Attack" : ["İstatistikleri saldırı sırasında göster", "Zeige Statistik während des Angriffs", "", "", "", "", "", "Näytä tiedot -ikkuna hyökkäyksen aikana"],
+			"Show Stats During Simulation" : ["İstatistikleri simulasyondayken göster", "Zeige Statistik während der Simulation", "", "", "", "", "", "Näytä tiedot -ikkuna simuloinnin aikana"],
+			"Skip Victory-Popup After Battle" : ["Savaş Bitiminde Zafer Bildirimini Atla", "Siegbildschirm überspringen", "", "", "", "", "", "Ohita taistelun jälkeinen voittoruutu"],
 			"Stats Window Opacity" : ["İstatistik Penceresi Saydamlığı", "", "", "", "", "", "", "Tiedot -ikkunan läpinäkyvyys"],
 			"Disable Unit Tooltips In Army Formation Manager" : ["Ordu Dizilişi Yöneticisinde Birlik İpuçlarını Gizle", "", "", "", "", "", "", "Poista käytöstä yksiköiden työkaluvihjeet armeijan muodostamisikkunassa"],
 			"Disable Tooltips In Attack Preparation View" : ["Saldırı Hazırlık Görünümünde İpuçlarını Gizle", "", "", "", "", "", "", "Poista työkaluvihjeet käytöstä hyökkäyksen valmisteluikkunassa"],
 			"Undo" : ["Geri Al", "", "", "", "", "", "", "Kumoa"],
 			"Redo" : ["İleri Al", "", "", "", "", "", "", "Tee uudelleen"],
-			"Open Stats Window" : ["İstatistik Penceresini Aç", "", "", "", "", "", "", "Avaa tiedot -ikkuna"]
+			"Open Stats Window" : ["İstatistik Penceresini Aç", "Statistik öffnen", "", "", "", "", "", "Avaa tiedot -ikkuna"]
 		};
 
 		function lang(text) {
