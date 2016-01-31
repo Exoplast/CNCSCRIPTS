@@ -895,7 +895,7 @@ var cd=cr.GetResearchItemFomMdbId(cj);
                     showMinimize : false,
                     showMaximize : false,
                     showClose : false,
-                    resizable : false
+                    resizable : true
                   });
                   this.mcvPopup.setLayout(new qx.ui.layout.VBox());
                   this.mcvPopup.addListener("move", function (e) {
