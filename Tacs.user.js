@@ -50,18 +50,18 @@ window.TACS_version = GM_info.script.version;
 			"Battle Time:" : ["Savaş Süresi:", "Kampfdauer:", "Tempo de Batalha:", "Tempo di Battaglia:", "Gevechtsduur:", "Csata ideje:", "Durée Du Combat:", "Taistelun kesto:", "Timp de atac"],
 			"Layouts" : ["Diziliş", "Aufstellung", "Formações", "Formazione", "Indelingen", "Elrendezés", "Dispositions", "Asetelmat", "Scheme"],
 			"Load" : ["Yükle", "Laden", "Carregar", "Carica", "Laad", "Töltés", "Charger", "Lataa", "Încarcă"],
-			"Load this saved layout." : ["Kayıtlı dizilişi yükle.", "Gespeichertes Layout laden.", "Carregar esta formação guardada.", "Carica questa formazione salvata.", "Laad deze opgeslagen indeling.", "Töltsd be ezt az elmentett elrendezést.", "Charger Cette Disposition.", "Lataa valittu asetelma.", "Încarcă acest formație salvată."],
+			"Load this saved layout." : ["Kayıtlı dizilişi yükle.", "Gespeicherte Aufstellung laden.", "Carregar esta formação guardada.", "Carica questa formazione salvata.", "Laad deze opgeslagen indeling.", "Töltsd be ezt az elmentett elrendezést.", "Charger Cette Disposition.", "Lataa valittu asetelma.", "Încarcă acest formație salvată."],
 			"Delete" : ["Sil", "Löschen", "Apagar", "Cancella", "Verwijder", "Törlés", "Effacer", "Poista", "Șterge"],
 			"Name: " : ["İsim: ", "Name: ", "Nome: ", "Nome: ", "Naam: ", "Név: ", "Nom: ", "Nimi: ", "Nume: "],
-			"Delete this saved layout." : ["Kayıtlı dizilişi sil.", "Gewähltes Layout löschen.", "Apagar esta formação guardada.", "Cancella questa formazione salvata.", "Verwijder deze opgeslagen indeling.", "Töröld ezt az elmentett elrendezést.", "Effacer Cette Disposition.", "Poista valittu asetelma.", "Șterge acest formație salvat."],
+			"Delete this saved layout." : ["Kayıtlı dizilişi sil.", "Gewählte Aufstellung löschen.", "Apagar esta formação guardada.", "Cancella questa formazione salvata.", "Verwijder deze opgeslagen indeling.", "Töröld ezt az elmentett elrendezést.", "Effacer Cette Disposition.", "Poista valittu asetelma.", "Șterge acest formație salvat."],
 			"Save" : ["Kaydet", "Speichern", "Guardar", "Salva", "Opslaan", "Mentés", "Sauvegarder", "Tallenna", "Salvează"],
-			"Save this layout." : ["Bu dizilişi kaydet.", "Layout speichern.", "Guardar esta formação.", "Salva questa formazione.", "Deze indeling opslaan.", "Mentsd el ezt az elrendezést.", "Sauvegarder Cette Disposition.", "Tallenna nykyinen asetelma.", "Salvează acest formație "],
+			"Save this layout." : ["Bu dizilişi kaydet.", "Aufstellung speichern.", "Guardar esta formação.", "Salva questa formazione.", "Deze indeling opslaan.", "Mentsd el ezt az elrendezést.", "Sauvegarder Cette Disposition.", "Tallenna nykyinen asetelma.", "Salvează acest formație "],
 			"Info" : ["Bilgi", "Info", "Info", "Info", "Info", "Info", "Infos", "Tietoa", "Info"],
 			"Forums" : ["Forum", "Forum", "Fóruns", "Forum", "Forums", "Fórum", "Forums", "Keskustelupalsta", "Forum"],
 			"Spoils" : ["Ganimetler", "Rohstoffausbeute", "Espólios", "Bottino", "Opbrengst", "Zsákmény", "Butin", "Sotasaalis", "Pradă"],
 			"Options" : ["Seçenekler", "Optionen", "Opções:", "Opzioni:", "Opties:", "Opciók:", "Options:", "Asetukset", "Opțiuni"],
 			"TACS Options": ["TACS Seçenekleri", "TACS Optionen", "", "", "", "", "", "", "Opțiuni TACS: "],
-			"Auto display stats" : ["İstatistik penceresini otomatik olarak göster", "Dieses Fenster automatisch öffnen", "Mostrar esta caixa automaticamente", "Apri automaticamente la finestra Strumenti", "Dit venster automatisch weergeven", "Ezen ablak autómatikus megjelenítése", "Affich. Auto. de cette Fenêtre", "Näytä simuloinnin tiedot automaattisesti", "Afișează automat statisticile"], // need to change translations
+			"Auto display stats" : ["İstatistik penceresini otomatik olarak göster", "Statistik automatisch öffnen", "Mostrar esta caixa automaticamente", "Apri automaticamente la finestra Strumenti", "Dit venster automatisch weergeven", "Ezen ablak autómatikus megjelenítése", "Affich. Auto. de cette Fenêtre", "Näytä simuloinnin tiedot automaattisesti", "Afișează automat statisticile"], // need to change translations
 			"Show shift buttons" : ["Kaydırma tuşlarını göster", "Bewegungstasten anzeigen", "Mostrar botões de deslocamento", "Mostra i pulsanti di spostamento", "Verschuifknoppen weergeven", "Eltoló gombok megjelenítése", "Affich. Auto. Boutons de Déplacement", "Näytä armeijan siirtopainikkeet", "Afișează butoanele de deplasare"],
 			"Warning!" : ["Uyarı!", "Warnung!", "Aviso!", "Attenzione!", "Waarschuwing!", "Figyelem!", "Attention!", "Varoitus!", "Atenție!"],
 			"Simulate" : ["Simule et", "Simulieren", "Simular", "Simula", "Simuleer", "Szimuláció", "Simuler", "Simuloi", "Simulează"],
@@ -81,7 +81,7 @@ window.TACS_version = GM_info.script.version;
 			"Total Defeat" : ["Mutlak Yenilgi", "Totale Niederlage", "Derrota total", "Sconfitta Totale", "Totale Nederlaag", "Teljes vereség", "Défaite Totale", "Total Tappio", "Înfrângere totală"],
 			"Support lvl " : ["Takviye seviyesi ", "Stufe Supportwaffe ", "Nível do Suporte ", "Supporto lvl ", "Ondersteuningsniveau ", '"Support" épület szintje ', "Lvl. Du Support ", "Tukitykistön taso ", "Nivelul suportului "],
 			"Refresh" : ["Yenile", "Erfrischen", "Actualizar", "Rinfrescare", "Verversen", "Felfrissít", "Actualiser", "Päivitä", "Împrospătează"], //google translate non-PT langs
-			"Refresh Stats" : ["İstatistikleri Yenile", "Erfrischen Statistik", "Estatística", "Rinfrescare Statistiche", "Verversen Statistieken", "Frissítés Stats", "Actualiser Les Stats", "Päivitä tiedot", "Împrospătează statisticile"], //google translate non-PT langs 'refresh' + statistics label
+			"Refresh Stats" : ["İstatistikleri Yenile", "Statistik erneuern", "Estatística", "Rinfrescare Statistiche", "Verversen Statistieken", "Frissítés Stats", "Actualiser Les Stats", "Päivitä tiedot", "Împrospătează statisticile"], //google translate non-PT langs 'refresh' + statistics label
 			"Side:" : ["Taraf:", "Seite", "Lado:", "", "Zijde", "", "Côté", "Sijainti:", "Lateral"],
 			"Left" : ["Sol", "Links", "Esquerda", "", "Links", "", "Gauche", "Vasen", "Stânga"],
 			"Right" : ["Sağ", "Rechts", "Direita", "", "Rechts", "", "Droite", "Oikea", "Dreapta"],
