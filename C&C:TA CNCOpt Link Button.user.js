@@ -1,8 +1,6 @@
 // ==UserScript==
-// @version       1.7.7
-// @updateURL     https://userscripts.org/scripts/source/131289.meta.js
-// @downloadURL   https://userscripts.org/scripts/source/131289.user.js
-// @name          C&C:TA CNCOpt Link Button with Enemy Offence mod
+// @version       1.7.8
+// @name          C&C:TA CNCOpt Link Button
 // @namespace     http://cncopt.com/
 // @icon          http://cncopt.com/favicon.ico
 // @description   Creates a "CNCOpt" button when selecting a base in Command & Conquer: Tiberium Alliances. The share button takes you to http://cncopt.com/ and fills in the selected base information so you can analyze or share the base.
@@ -386,7 +384,7 @@ try {
                   link += "E|";
                   break;
               }
-              switch (own_city.get_CityFaction()) {
+              switch (city.get_CityFaction()) {
                 case 1:
                   /* GDI */
                   link += "G|";
