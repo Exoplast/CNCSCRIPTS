@@ -3,7 +3,7 @@
 // @namespace   MaelstromTools
 // @description Just a set of statistics & summaries about repair time and base resources. Mainly for internal use, but you are free to test and comment it.
 // @version     0.1.4.6
-// @author      Maelstrom, HuffyLuf, KRS_L and Krisan
+// @author      Maelstrom, HuffyLuf, KRS_L,Krisan,DLwarez
 // @include     http*://prodgame*.alliances.commandandconquer.com/*/index.aspx*
 // ==/UserScript==
 //var offense_units = own_city.get_CityArmyFormationsManager().GetFormationByTargetBaseId(current_city.get_Id()).get_ArmyUnits().l;
