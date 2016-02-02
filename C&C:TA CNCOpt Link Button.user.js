@@ -1,5 +1,5 @@
 // ==UserScript==
-// @version       1.7.8
+// @version       1.7.7
 // @name          C&C:TA CNCOpt Link Button with Enemy Offence mod
 // @namespace     http://cncopt.com/
 // @icon          http://cncopt.com/favicon.ico
@@ -384,7 +384,7 @@ try {
                   link += "E|";
                   break;
               }
-              switch (city.get_CityFaction()) {
+              switch (own_city.get_CityFaction()) {
                 case 1:
                   /* GDI */
                   link += "G|";
