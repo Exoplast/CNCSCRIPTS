@@ -1,5 +1,5 @@
 // ==UserScript==
-// @version       1.7.7
+// @version       1.7.8
 // @name          C&C:TA CNCOpt Link Button with Enemy Offence mod
 // @namespace     http://cncopt.com/
 // @icon          http://cncopt.com/favicon.ico
@@ -27,7 +27,7 @@ var scity = null;
 var tcity = null;
 var tbase = null;
 try {
-  unsafeWindow.__cncopt_version = "1.7.7";
+  unsafeWindow.__cncopt_version = "1.7.8";
   (function () {
     var cncopt_main = function () {
 
@@ -384,7 +384,7 @@ try {
                   link += "E|";
                   break;
               }
-              switch (own_city.get_CityFaction()) {
+              switch (city.get_CityFaction()) {
                 case 1:
                   /* GDI */
                   link += "G|";
@@ -401,7 +401,7 @@ try {
                   /* Forgotten Camps */
                 case 6:
                   /* Forgotten Outposts */
-                  link += "F|";
+                  link += "N|";
                   break;
                 default:
                   console.log("cncopt: Unknown faction: " + own_city.get_CityFaction());
