@@ -445,10 +445,14 @@ window.TACS_version = GM_info.script.version;
 							
 							if (PerforceChangelist >= 443425) { // 16.1 patch
 								for (var i in this._armyBarContainer) {
-									if (typeof this._armyBarContainer[i] == "object" && this._armyBarContainer[i] != null && this._armyBarContainer[i].objid == "btn_disable") {
-										console.log(this._armyBarContainer[i].objid);
-										var nativeSimBarDisableButton = this._armyBarContainer[i];
-										break;
+									if (typeof this._armyBarContainer[i] == "object" && this._armyBarContainer[i] != null) {
+										if (this._armyBarContainer[i].objid == "btn_disable") {
+											console.log(this._armyBarContainer[i].objid);
+											var nativeSimBarDisableButton = this._armyBarContainer[i];
+										}
+										if (this._armyBarContainer[i].objid == "cnt_controls" || this._armyBarContainer[i].objid == "btn_toggle") {
+											this._armyBarContainer[i].setVisibility("excluded");
+										}
 									}
 								}
 								var armyBarChildren = this._armyBar.getChildren();
@@ -3027,7 +3031,12 @@ window.TACS_version = GM_info.script.version;
 							this.stats.repair.aircraft = 0;
 
 							this.lastSimulation = Date.now();
-							if (this.count == 10) this.counter = setInterval(this.countDownToNextSimulation, 1000);
+							if (PerforceChangelist >= 448942) {
+								var countDownInterval = 300;
+							} else {
+								var countDownInterval = 1000;	
+							}
+							if (this.count == 10) this.counter = setInterval(this.countDownToNextSimulation, countDownInterval);
 
 							for (var i = 0; i < data.length; i++) {
 								var unitData = data[i].Value;
