@@ -2,9 +2,9 @@
 // @name Tiberium Alliances Tunnel Info
 // @description Tunnel info
 // @namespace TATI
-// @include http*://prodgame*.alliances.commandandconquer.com/*/index.aspx*
-// @version 2.2
-// @author sebb912
+// @include http*://*.alliances.commandandconquer.com/*/index.aspx*
+// @version 2.2.2
+// @author KRS_L
 // ==/UserScript==
 (function () {
 	var TATI_main = function () {
@@ -166,10 +166,10 @@
 												var tunnelLevel = visObject.get_Level();
 												var distanceToTunnel = ClientLib.Base.Util.CalculateDistance(startX, startY, tunnelX, tunnelY);
 												if (distanceToTunnel <= this.tunnelInfluenceRange) {
-													if (this.currentCityOffenseLevel < tunnelLevel - 5,9) { // Blocking Tunnel
+													if (this.currentCityOffenseLevel < tunnelLevel - 7) { // Blocking Tunnel
 														this.regionCityMoveInfoAddonExists = true;
-														if (this.requiredOffenseLevel < tunnelLevel - 5,9)
-															this.requiredOffenseLevel = tunnelLevel - 5,9;
+														if (this.requiredOffenseLevel < tunnelLevel - 7)
+															this.requiredOffenseLevel = tunnelLevel - 7;
 														this.addTunnelMarker(tunnelX, tunnelY, "#ff3600");
 													} else { // Activating Tunnel
 														this.addTunnelMarker(tunnelX, tunnelY, "#06ff00");
@@ -208,7 +208,7 @@
 					addTunnelMarker : function (tunnelX, tunnelY, color) {
 						try {
 							var tunnelMarker = new qx.ui.container.Composite(new qx.ui.layout.HBox(5)).set({
-									decorator : new qx.ui.decoration.Single(1, "solid", "#000000").set({
+									decorator : new qx.ui.decoration.Decorator(1, "solid", "#000000").set({
 										backgroundColor : color
 									}),
 									width : this.tunnelMarkerWidth,
@@ -309,6 +309,4 @@
 	} catch (e) {
 		console.log("TATI: init error: ", e);
 	}
-})();
-}
 })();
