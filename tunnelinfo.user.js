@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name Tiberium Alliances Tunnel Info for Tib 35 and newer Worlds
+// @name Tiberium Alliances Tunnel Info for Tib 34 and newer Worlds
 // @description Tunnel info
 // @namespace TATI
 // @include http*://*.alliances.commandandconquer.com/*/index.aspx*
