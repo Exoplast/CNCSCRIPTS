@@ -3,8 +3,6 @@
 // @version     2018.12.20
 // @author      leo7044 
 // @description PTE_CheatScript
-// @downloadURL https://github.com/leo7044/CnC_TA/raw/master/PTE_CheatScript.user.js
-// @updateURL   https://github.com/leo7044/CnC_TA/raw/master/PTE_CheatScript.user.js
 // @include     http*://prodgame*.alliances.commandandconquer.com/320/index.aspx*
 // @include     http*://cncapp*.alliances.commandandconquer.com/320/index.aspx*
 // @grant       none
